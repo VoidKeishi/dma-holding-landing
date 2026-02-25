@@ -85,7 +85,7 @@ export default function ContactCTA() {
 
           {/* White slogan */}
           <motion.div
-            className="mx-auto mt-10 relative h-6 w-72 md:h-8 md:w-96"
+            className="mx-auto mt-10 relative h-8 w-80 md:h-12 md:w-[480px]"
             {...fadeInUp}
             transition={{ duration: 0.6, delay: 0.5 }}
           >
