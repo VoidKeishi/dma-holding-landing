@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1E3A4F;
+
+  /* Base Colors */
+  --color-white: #FFFFFF;
+  --color-ice: #EEF4F7;
+  --color-dark: #1E3A4F;
+  --color-slate: #8A9BA1;
+
+  /* Brand Colors */
+  --color-teal: #2C5F73;
+  --color-teal-light: #5B9BAD;
+  --color-sky: #9DCAD6;
+  --color-gold: #C49A2A;
+  --color-green: #2D7D6A;
+
+  /* Interactive */
+  --color-link: #2D7D6A;
+  --color-link-hover: #2C5F73;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-dma-ice: #EEF4F7;
+  --color-dma-dark: #1E3A4F;
+  --color-dma-slate: #8A9BA1;
+  --color-dma-teal: #2C5F73;
+  --color-dma-teal-light: #5B9BAD;
+  --color-dma-sky: #9DCAD6;
+  --color-dma-gold: #C49A2A;
+  --color-dma-green: #2D7D6A;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+a:not([class]) {
+  color: var(--color-green);
+  transition: color 0.2s ease;
+}
+
+a:not([class]):hover {
+  color: var(--color-teal);
+}
+
+.container-custom {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-custom {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-custom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+::selection {
+  background-color: var(--color-teal);
+  color: white;
+}
