@@ -4,16 +4,26 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-[0_2px_8px_rgba(30,58,79,0.08)]">
       <div className="container-custom flex h-[72px] items-center justify-between md:h-20">
-        {/* Logo — full color logo + text */}
-        <a href="#" className="flex items-center shrink-0">
-          <div className="relative h-10 md:h-12 w-[140px] md:w-[170px]">
+        {/* Logo — icon + vertical text */}
+        <a href="#" className="flex items-center gap-2 md:gap-3 shrink-0">
+          <div className="relative h-9 w-[66px] md:h-11 md:w-[80px]">
             <Image
-              src="/logos/dma-logo-side.png"
-              alt="DMA Holdings"
+              src="/logos/dma-logo-only.png"
+              alt=""
+              fill
+              className="object-contain"
+              priority
+              sizes="80px"
+            />
+          </div>
+          <div className="relative h-10 w-[100px] md:h-12 md:w-[120px]">
+            <Image
+              src="/logos/dma-text-vertical.png"
+              alt="Discovery Minerals Asia"
               fill
               className="object-contain object-left"
               priority
-              sizes="170px"
+              sizes="120px"
             />
           </div>
         </a>

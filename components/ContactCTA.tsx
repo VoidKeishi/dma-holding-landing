@@ -84,7 +84,7 @@ export default function ContactCTA() {
           </motion.p>
 
           {/* White slogan */}
-          <motion.div
+          {/* <motion.div
             className="mx-auto mt-10 relative h-8 w-80 md:h-12 md:w-[480px]"
             {...fadeInUp}
             transition={{ duration: 0.6, delay: 0.5 }}
@@ -96,7 +96,7 @@ export default function ContactCTA() {
               className="object-contain"
               sizes="320px"
             />
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
     </section>
