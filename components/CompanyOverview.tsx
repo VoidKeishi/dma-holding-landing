@@ -63,7 +63,7 @@ export default function CompanyOverview() {
             {...fadeInUp}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <div className="relative h-5 w-64 md:h-6 md:w-120">
+            <div className="relative h-4 w-48 sm:h-5 sm:w-64 md:h-6 md:w-120">
               <Image
                 src="/logos/dma-slogan.png"
                 alt="Structuring Capital, Scaling Resources"

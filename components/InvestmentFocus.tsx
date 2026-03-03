@@ -77,7 +77,7 @@ export default function InvestmentFocus() {
 
         {/* 4-column card grid */}
         <motion.div
-          className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
+          className="mt-10 grid gap-4 sm:mt-14 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4"
           variants={staggerContainer}
           initial="initial"
           whileInView="animate"
@@ -87,7 +87,7 @@ export default function InvestmentFocus() {
             <motion.div
               key={pillar.title}
               variants={staggerItem}
-              className="group rounded-lg border border-dma-sky bg-white p-8 shadow-[0_2px_8px_rgba(30,58,79,0.06)] transition-all duration-200 hover:-translate-y-0.5 hover:border-dma-gold hover:shadow-[0_8px_24px_rgba(30,58,79,0.12)]"
+              className="group rounded-lg border border-dma-sky bg-white p-5 shadow-[0_2px_8px_rgba(30,58,79,0.06)] transition-all duration-200 sm:p-8 md:hover:-translate-y-0.5 md:hover:border-dma-gold md:hover:shadow-[0_8px_24px_rgba(30,58,79,0.12)]"
             >
               {/* Gold accent top border */}
               <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-dma-gold/10">

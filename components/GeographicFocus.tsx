@@ -52,12 +52,12 @@ export default function GeographicFocus() {
           whileInView="animate"
           viewport={viewportOnce}
         >
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 sm:grid-cols-3 md:grid-cols-5">
             {countries.map((country) => (
               <motion.div
                 key={country.name}
                 variants={staggerItem}
-                className="flex flex-col items-center rounded-lg border border-dma-sky/50 bg-dma-ice/50 px-4 py-6 transition-all duration-200 hover:border-dma-teal hover:shadow-md"
+                className="flex flex-col items-center rounded-lg border border-dma-sky/50 bg-dma-ice/50 px-3 py-4 transition-all duration-200 sm:px-4 sm:py-6 md:hover:border-dma-teal md:hover:shadow-md"
               >
                 {/* Country flag */}
                 <div className="relative h-8 w-12 overflow-hidden rounded-sm shadow-sm">

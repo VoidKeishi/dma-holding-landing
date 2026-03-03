@@ -53,7 +53,7 @@ export default function ContactCTA() {
           />
 
           <motion.p
-            className="mt-6 text-lg leading-relaxed text-white/80 md:text-xl md:leading-relaxed"
+            className="mt-4 text-base leading-relaxed text-white/80 sm:mt-6 sm:text-lg md:text-xl md:leading-relaxed"
             {...fadeInUp}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
@@ -69,14 +69,14 @@ export default function ContactCTA() {
           >
             <a
               href="mailto:info@dma-holdings.com"
-              className="inline-flex items-center rounded-md border-2 border-white px-8 py-3.5 text-sm font-semibold uppercase tracking-widest text-white transition-all duration-150 hover:scale-[1.02] hover:bg-white hover:text-dma-teal"
+              className="inline-flex items-center rounded-md border-2 border-white px-6 py-3 text-xs font-semibold uppercase tracking-widest text-white transition-all duration-150 hover:bg-white hover:text-dma-teal sm:px-8 sm:py-3.5 sm:text-sm md:hover:scale-[1.02]"
             >
               Contact Us
             </a>
           </motion.div>
 
           <motion.p
-            className="mt-6 text-base font-medium text-white/70 md:text-lg"
+            className="mt-6 text-sm font-medium text-white/70 sm:text-base md:text-lg"
             {...fadeInUp}
             transition={{ duration: 0.6, delay: 0.4 }}
           >

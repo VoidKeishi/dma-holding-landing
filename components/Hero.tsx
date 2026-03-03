@@ -53,30 +53,42 @@ export default function Hero() {
 
       {/* Content */}
       <div className="container-custom relative z-10 px-4 text-center">
-        {/* Mountain icon — large, impactful hero visual */}
+        {/* Logo lockup — icon + horizontal wordmark */}
         <motion.div
           className="mx-auto mb-10 flex justify-center"
           {...fadeIn}
           transition={{ duration: 1, delay: 0.1 }}
         >
-          <div className="relative">
-            {/* Subtle radial glow behind icon */}
+          <div className="relative flex flex-col items-center gap-3 sm:flex-row sm:gap-4 md:gap-6">
+            {/* Subtle radial glow behind lockup */}
             <div className="absolute -inset-10 rounded-full bg-white/[0.04] blur-3xl" />
-            <div className="relative h-36 w-36 md:h-44 md:w-44 lg:h-52 lg:w-52">
+            {/* Mountain icon */}
+            <div className="relative h-16 w-16 shrink-0 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-40 lg:w-40">
               <Image
                 src="/logos/dma-icon-white.png"
                 alt="DMA Holdings"
                 fill
                 className="object-contain drop-shadow-[0_4px_24px_rgba(255,255,255,0.1)]"
                 priority
-                sizes="208px"
+                sizes="160px"
+              />
+            </div>
+            {/* Horizontal wordmark */}
+            <div className="relative h-10 w-44 sm:h-20 sm:w-64 md:h-28 md:w-[380px] lg:h-36 lg:w-[500px]">
+              <Image
+                src="/logos/dma-horizontal-white.png"
+                alt="Discovery Minerals Asia"
+                fill
+                className="object-contain drop-shadow-[0_4px_24px_rgba(255,255,255,0.1)]"
+                priority
+                sizes="320px"
               />
             </div>
           </div>
         </motion.div>
 
         <motion.h1
-          className="mx-auto max-w-4xl text-4xl font-bold uppercase leading-tight tracking-wide text-white md:text-5xl lg:text-[56px] lg:leading-[1.1]"
+          className="mx-auto max-w-4xl text-2xl font-bold uppercase leading-tight tracking-wide text-white sm:text-4xl md:text-5xl lg:text-[56px] lg:leading-[1.1]"
           {...fadeInUp}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
@@ -84,7 +96,7 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p
-          className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/75 md:text-lg md:leading-relaxed"
+          className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-white/75 sm:mt-6 sm:text-base md:text-lg md:leading-relaxed"
           {...fadeInUp}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
@@ -100,7 +112,7 @@ export default function Hero() {
         >
           <a
             href="#overview"
-            className="inline-flex items-center rounded-md border-2 border-white px-8 py-3.5 text-sm font-semibold uppercase tracking-widest text-white transition-all duration-150 hover:scale-[1.02] hover:bg-white hover:text-dma-teal"
+            className="inline-flex items-center rounded-md border-2 border-white px-6 py-3 text-xs font-semibold uppercase tracking-widest text-white transition-all duration-150 hover:bg-white hover:text-dma-teal sm:px-8 sm:py-3.5 sm:text-sm md:hover:scale-[1.02]"
           >
             Learn More
           </a>

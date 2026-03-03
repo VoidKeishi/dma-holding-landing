@@ -31,7 +31,7 @@ export default function Navigation() {
         {/* CTA Button */}
         <a
           href="#contact"
-          className="inline-flex items-center rounded-md px-5 py-2.5 text-sm font-semibold tracking-wide transition-all duration-150 hover:scale-[1.02] bg-dma-teal text-white hover:bg-dma-teal-light"
+          className="inline-flex items-center rounded-md px-4 py-2.5 text-xs font-semibold tracking-wide transition-all duration-150 active:bg-dma-teal-light sm:px-5 sm:text-sm bg-dma-teal text-white hover:bg-dma-teal-light md:hover:scale-[1.02]"
         >
           Contact Us
         </a>

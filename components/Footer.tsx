@@ -20,7 +20,7 @@ export default function Footer() {
               />
             </div>
             {/* Horizontal wordmark */}
-            <div className="relative h-9 w-48">
+            <div className="relative h-8 w-36 sm:h-9 sm:w-48">
               <Image
                 src="/logos/dma-horizontal-white.png"
                 alt="DMA Holdings"
@@ -33,10 +33,10 @@ export default function Footer() {
 
           {/* Links / Info */}
           <div className="text-center md:text-right">
-            <p className="text-base text-dma-sky">
+            <p className="text-sm text-dma-sky sm:text-base">
               Discovery Minerals Asia Holdings
             </p>
-            <p className="mt-1 text-base text-dma-sky/70">
+            <p className="mt-1 text-sm text-dma-sky/70 sm:text-base">
               Singapore
             </p>
           </div>
