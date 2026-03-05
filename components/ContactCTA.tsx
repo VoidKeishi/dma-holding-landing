@@ -68,7 +68,7 @@ export default function ContactCTA() {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <a
-              href="mailto:info@dma-holdings.com"
+              href="mailto:contact@dma-holdings.com"
               className="inline-flex items-center rounded-md border-2 border-white px-6 py-3 text-xs font-semibold uppercase tracking-widest text-white transition-all duration-150 hover:bg-white hover:text-dma-teal sm:px-8 sm:py-3.5 sm:text-sm md:hover:scale-[1.02]"
             >
               Contact Us
@@ -80,7 +80,7 @@ export default function ContactCTA() {
             {...fadeInUp}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            info@dma-holdings.com
+            contact@dma-holdings.com
           </motion.p>
 
           {/* White slogan */}
