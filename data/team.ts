@@ -12,7 +12,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: 'lon-taranaki',
     name: 'Lon Taranaki',
-    jobTitle: 'General Director',
+    jobTitle: 'Managing Director',
     category: 'board',
     image: '/team/lon-taranaki.png',
     shortBio:
@@ -23,24 +23,13 @@ export const teamMembers: TeamMember[] = [
   {
     id: 'jeremy-ayre',
     name: 'Jeremy Ayre',
-    jobTitle: 'Advisory Board',
+    jobTitle: 'Senior Advisor - Strategy',
     category: 'advisory',
     image: '/team/jeremy-ayre.png',
     shortBio:
       'Over 35 years\u2019 experience spanning mining, consulting, investment, and entrepreneurship. Co-founder of AWR Lloyd.',
     fullBio:
       'Jeremy Ayre brings over 35 years\u2019 experience spanning mining, consulting, investment, and entrepreneurship. He is a co-founder of AWR Lloyd, a boutique strategic consulting and M&A advisory firm operating across South-East Asia, with a strong focus on the energy and mining sectors. He has co-founded a London-listed private equity fund and, more recently, established a remote power generation business. Jeremy\u2019s work centres on strategic advisory, capital structuring, and the development of resilient, long-term businesses.',
-  },
-  {
-    id: 'dr-chris-swindells',
-    name: 'Dr. Chris Swindells',
-    jobTitle: 'Advisory Board',
-    category: 'advisory',
-    image: '/team/dr-chris-swindells.png',
-    shortBio:
-      'Senior engineering and environmental professional with over 45 years\u2019 experience leading technical teams across mining and infrastructure.',
-    fullBio:
-      'Senior engineering and environmental professional with over 45 years\u2019 experience leading technical teams across the mining and infrastructure sectors. Former senior executive at Golder Associates, where he held multiple leadership roles across Australia, Asia and Africa for over 32 years, including leading the Mining Services team in EMEA and APAC and globally.',
   },
   {
     id: 'scott-williamson',
@@ -63,5 +52,16 @@ export const teamMembers: TeamMember[] = [
       'Qualified Mining Engineer with an MBA and over 19 years\u2019 experience across the mining and metals sector.',
     fullBio:
       'Qualified Mining Engineer with an MBA and over 19 years\u2019 experience across the mining and metals sector, spanning open pit and underground operations. Extensive background in project evaluation, due diligence, M&A, project planning and development, technical and strategic consulting, and founder of a mining-related IT start-up. Recognised Competent Person for JORC & NI43-101 Reserve reporting.',
+  },
+  {
+    id: 'chris-ramsay',
+    name: 'Chris Ramsay',
+    jobTitle: 'Senior Technical Advisor \u2013 JORC & NI43-101 Resources',
+    category: 'technical',
+    image: '/team/chris-ramsay.png',
+    shortBio:
+      'Senior geologist and resource estimation specialist with extensive experience in JORC and NI43-101 resource reporting across Southeast Asia.',
+    fullBio:
+      'Chris Ramsay is a senior geologist and resource estimation specialist with deep expertise in JORC and NI43-101 resource reporting. With extensive experience across Southeast Asia, Chris provides critical technical advisory on resource classification, geological modelling, and compliance reporting for DMA Holdings\u2019 portfolio of mining assets.',
   },
 ]

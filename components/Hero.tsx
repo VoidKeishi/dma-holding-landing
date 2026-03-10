@@ -52,7 +52,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="container-custom relative z-10 px-4 text-center">
+      <div className="container-custom relative z-10 px-4 pt-20 pb-32 text-center md:pt-24 md:pb-40">
         {/* Logo lockup — icon + horizontal wordmark */}
         <motion.div
           className="mx-auto mb-10 flex justify-center"
