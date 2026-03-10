@@ -5,7 +5,7 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-[0_2px_8px_rgba(30,58,79,0.08)]">
       <div className="container-custom flex h-[72px] items-center justify-between md:h-20">
         {/* Logo */}
-        <a href="#" className="shrink-0">
+        <a href="/" className="shrink-0">
           <div className="relative h-9 w-[66px] md:h-11 md:w-[80px]">
             <Image
               src="/logos/dma-logo-only.png"
@@ -18,13 +18,21 @@ export default function Navigation() {
           </div>
         </a>
 
-        {/* CTA Button */}
-        <a
-          href="#contact"
-          className="inline-flex items-center rounded-md px-4 py-2.5 text-xs font-semibold tracking-wide transition-all duration-150 active:bg-dma-teal-light sm:px-5 sm:text-sm bg-dma-teal text-white hover:bg-dma-teal-light md:hover:scale-[1.02]"
-        >
-          Contact Us
-        </a>
+        {/* Nav Links + CTA */}
+        <div className="flex items-center gap-4 sm:gap-6">
+          <a
+            href="/team"
+            className="rounded-md border border-dma-teal px-4 py-2 text-xs font-semibold tracking-wide text-dma-teal transition-all duration-150 hover:bg-dma-teal hover:text-white sm:text-sm md:hover:scale-[1.02]"
+          >
+            Our Team
+          </a>
+          <a
+            href="#contact"
+            className="inline-flex items-center rounded-md bg-dma-teal px-4 py-2.5 text-xs font-semibold tracking-wide text-white transition-all duration-150 hover:bg-dma-teal-light active:bg-dma-teal-light sm:px-5 sm:text-sm md:hover:scale-[1.02]"
+          >
+            Contact Us
+          </a>
+        </div>
       </div>
     </nav>
   )

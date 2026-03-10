@@ -23,7 +23,7 @@ export default function Hero() {
           background: `
             radial-gradient(ellipse 80% 60% at 50% 40%, rgba(44, 95, 115, 0.45) 0%, transparent 70%),
             radial-gradient(ellipse 40% 30% at 80% 15%, rgba(196, 154, 42, 0.06) 0%, transparent 50%),
-            radial-gradient(ellipse 50% 40% at 15% 75%, rgba(15, 32, 48, 0.5) 0%, transparent 50%)
+            radial-gradient(ellipse 70% 50% at 15% 75%, rgba(15, 32, 48, 0.25) 0%, transparent 60%)
           `,
         }}
       />
@@ -122,20 +122,20 @@ export default function Hero() {
       {/* Smooth geological strata transition → white Company Overview */}
       <div className="absolute -bottom-px left-0 right-0 z-10">
         <svg
-          viewBox="0 0 1440 120"
+          viewBox="0 0 1440 180"
           preserveAspectRatio="none"
           className="block w-full"
-          style={{ height: "clamp(50px, 7vw, 90px)" }}
+          style={{ height: "clamp(100px, 14vw, 200px)" }}
         >
           {/* Deep strata layer — subtle teal tint */}
           <path
-            d="M0,80 C180,55 360,90 540,65 C720,40 900,75 1080,50 C1200,35 1320,60 1440,45 L1440,120 L0,120 Z"
+            d="M0,100 C160,30 320,130 540,50 C720,0 900,110 1080,30 C1200,0 1340,80 1440,20 L1440,180 L0,180 Z"
             fill="#EEF4F7"
-            opacity="0.5"
+            opacity="0.7"
           />
           {/* Primary transition layer — white */}
           <path
-            d="M0,90 C240,60 480,95 720,70 C960,45 1200,80 1440,55 L1440,120 L0,120 Z"
+            d="M0,120 C200,40 400,140 720,60 C960,10 1180,110 1440,40 L1440,180 L0,180 Z"
             fill="#FFFFFF"
           />
         </svg>
