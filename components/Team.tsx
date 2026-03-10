@@ -97,7 +97,7 @@ function MemberCard({
       className="group h-full w-full cursor-pointer overflow-hidden rounded-lg border border-dma-sky bg-white text-left shadow-[0_2px_8px_rgba(30,58,79,0.06)] transition-all duration-200 md:hover:-translate-y-0.5 md:hover:border-dma-gold md:hover:shadow-[0_8px_24px_rgba(30,58,79,0.12)]"
     >
       <div className="flex flex-col sm:flex-row h-full">
-        <div className="relative aspect-[3/4] w-full flex-shrink-0 overflow-hidden bg-gradient-to-br from-dma-ice to-dma-sky/20 sm:aspect-auto sm:min-h-[200px] sm:w-44 md:w-48">
+        <div className="relative aspect-[3/4] w-full flex-shrink-0 overflow-hidden bg-gradient-to-br from-dma-ice to-dma-sky/20 sm:aspect-auto sm:min-h-[200px] sm:w-40 md:w-44">
           <Image
             src={member.image}
             alt={member.name}
@@ -114,7 +114,7 @@ function MemberCard({
           <p className="mb-3 text-sm font-medium text-dma-teal">
             {member.jobTitle}
           </p>
-          <p className="flex-1 text-sm leading-relaxed text-dma-dark/80">
+          <p className="flex-1 whitespace-pre-line text-sm leading-relaxed text-dma-dark/80">
             {member.shortBio}
           </p>
         </div>
